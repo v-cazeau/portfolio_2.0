@@ -1,0 +1,25 @@
+[debug] [2023-07-13T18:56:11.935Z] ----------------------------------------------------------------------
+[debug] [2023-07-13T18:56:11.936Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-07-13T18:56:11.936Z] CLI Version:   11.28.0
+[debug] [2023-07-13T18:56:11.936Z] Platform:      darwin
+[debug] [2023-07-13T18:56:11.936Z] Node Version:  v18.15.0
+[debug] [2023-07-13T18:56:11.937Z] Time:          Thu Jul 13 2023 14:56:11 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-07-13T18:56:11.937Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-13T18:56:11.969Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-13T18:56:11.970Z] > authorizing via signed-in user (veronie.cazeau@gmail.com)
+[debug] [2023-07-13T18:56:11.970Z] [iam] checking project veronie-cazeau for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-13T18:56:11.970Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/veronie-cazeau:testIamPermissions [none]
+[debug] [2023-07-13T18:56:11.971Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/veronie-cazeau:testIamPermissions x-goog-quota-user=projects/veronie-cazeau
+[debug] [2023-07-13T18:56:11.971Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/veronie-cazeau:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-13T18:56:12.333Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/veronie-cazeau:testIamPermissions 200
+[debug] [2023-07-13T18:56:12.334Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/veronie-cazeau:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-13T18:56:12.335Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/veronie-cazeau [none]
+[debug] [2023-07-13T18:56:12.903Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/veronie-cazeau 200
+[debug] [2023-07-13T18:56:12.903Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/veronie-cazeau {"projectId":"veronie-cazeau","projectNumber":"145725596550","displayName":"veronie-cazeau","name":"projects/veronie-cazeau","resources":{"hostingSite":"veronie-cazeau"},"state":"ACTIVE","etag":"1_878c233b-46b1-4bec-8760-f65b6cf9da48"}
+[debug] [2023-07-13T18:56:21.600Z] TypeError: Cannot read properties of null (reading 'endsWith')
+    at ɵcodegenPublicDirectory (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:206:56)
+    at async prepareFrameworks (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/index.js:287:13)
+    at async deploy (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
