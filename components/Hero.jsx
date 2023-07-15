@@ -1,15 +1,15 @@
 export default function Hero() {
     return (
       <section className="text-titanium-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-4/5 md:mb-0">
             <img className="object-cover object-center rounded" alt="hero" src="/images/profilePic.webp"/>
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="title-font sm:text-5xl text-4xl mb-4 font-medium text-titanium-900">Véronie Cazeau
+            <h1 className="title-font sm:text-5xl text-4xl mb-4 mt-2 font-medium text-titanium-900">Véronie Cazeau
               <br/>Software Engineer
             </h1>
-            <p className="mb-8 leading-relaxed sm:text-1.5xl text-1.5xl">As an enthusiastic and motivated software engineer, I am passionate about Information Technology and continuously seek opportunities for self-learning. My areas of interest span development, UX/UI design, cloud computing, DevSecOps, and project management. With a strong drive to gain more experience in my field, I am actively seeking opportunities to contribute my skills and expertise to innovative projects and collaborate with fellow professionals.</p>
+            <p className="mb-3 text-justify leading-relaxed sm:text-1.5xl text-1.5xl">As an enthusiastic and motivated software engineer, I am passionate about Information Technology and continuously seek opportunities for self-learning. My areas of interest span development, UX/UI design, cloud computing, DevSecOps, and project management. With a strong drive to gain more experience in my field, I am actively seeking opportunities to contribute my skills and expertise to innovative projects and collaborate with fellow professionals.</p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg ml-2 mr-5"><a href="/images/2023FSDResume.pdf" className="text-titanium-600 ml-1" rel="noopener noreferrer" target="_blank">Resume</a></button>
 
