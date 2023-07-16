@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .footer {} */
+
+.main {
+  min-height: calc(100vh-100px);
+  margin-bottom: auto;
+}
+
+.footer, .push  {
+  height: 100px;
+}
